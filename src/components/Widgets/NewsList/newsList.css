@@ -1,0 +1,17 @@
+.newslist_item{
+    border:1px solid #f2f2f2;
+    background: #fff;
+    margin-top: 0px;
+    padding: 8px 5px 0 5px;
+}
+
+.newslist_item h2{
+    font-size:13px;
+    line-height: 21px;
+    margin: 5px 0;
+    color: #525252;
+}
+
+.newslist_item a{
+    text-decoration: none;
+}
