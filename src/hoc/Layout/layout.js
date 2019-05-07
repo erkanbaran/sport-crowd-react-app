@@ -2,7 +2,6 @@ import React from 'react';
 import './layout.css';
 import Header from '../../components/Header/header'
 import Footer from '../../components/Footer/footer'
-import Home from '../../components/Home/home'
 
 class Layout extends React.Component {
 
@@ -24,7 +23,6 @@ class Layout extends React.Component {
                     onOpenNav={() => this.toggleSidenav(true)}
                 ></Header>
                 {this.props.children}
-                <Home></Home>
                 <Footer></Footer>
             </div>
         );
