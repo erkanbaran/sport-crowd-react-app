@@ -1,5 +1,6 @@
 import * as firebase from 'firebase/app';
 import 'firebase/database';
+import 'firebase/auth';
 
 var firebaseConfig = {
     apiKey: "AIzaSyB8p027UeS2iTLc3prJImKSY2IJhLRvAkI",
@@ -34,5 +35,6 @@ export{
     FirebaseArticles,
     FirebaseTeams,
     FirebaseVideos,
-    firebaseLooper
+    firebaseLooper,
+    firebase
 }

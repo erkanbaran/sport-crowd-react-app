@@ -21,6 +21,7 @@ class Layout extends React.Component {
                     showNav={this.state.showNav}
                     onHideNav={() => this.toggleSidenav(false)}
                     onOpenNav={() => this.toggleSidenav(true)}
+                    user={this.props.user}
                 ></Header>
                 {this.props.children}
                 <Footer></Footer>

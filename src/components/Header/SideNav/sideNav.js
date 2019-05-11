@@ -15,7 +15,7 @@ const SideNavigaton = (props) => {
                 }}
             >
 
-            <SideNavItems></SideNavItems>
+            <SideNavItems {...props}></SideNavItems>
 
             </SideNav>
         </div>
