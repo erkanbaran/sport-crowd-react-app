@@ -28,7 +28,7 @@ const firebaseLooper = (snapshot) => {
         })
     });
     return data;
-}
+} 
 
 export{
     firebaseDB,
