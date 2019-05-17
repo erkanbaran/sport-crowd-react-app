@@ -16,5 +16,5 @@ const App = (props) => {
     );
 };
 firebase.auth().onAuthStateChanged((user) => {
-    ReactDOM.render(<App />, document.getElementById('root'));
+    ReactDOM.render(<App user={user} />, document.getElementById('root'));
 })
